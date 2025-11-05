@@ -1,0 +1,76 @@
+.PROJECTMAINBOX {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  justify-content: flex-end;
+  align-items: center;
+  background: none;
+  width: 75vw;
+  height: 40vh;
+  position: relative;
+  z-index: 1;
+}
+
+.PROJECTEXTBOX {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.YEAR {
+  color: oklch(44.4% 0.011 73.639);
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;   /* removes underline */
+  color: inherit;
+  width: auto;
+  height: auto;
+}
+
+.PROJECTITLESBOX {
+  display: flex;
+  flex-direction: column;
+  gap: 0.01rem;
+  z-index: 1;
+}
+
+img {
+  height: auto;
+  width: 25em;
+  position: relative;
+  transition: .3s ease-in-out;
+  border-radius: 0.5rem;
+  box-shadow: 1px 10px 23px -15px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 10px 23px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 10px 23px -15px rgba(0,0,0,0.75);
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.VIEWPROJECT {
+  font-size: 1.4rem;
+  color: oklch(50% 0.134 242.749);
+  transition: .2s ease-in-out;
+  width: 5.8em;
+}
+
+.VIEWPROJECT:hover {
+  transform: translateY(-0.25rem);
+}
+
+.DESCRIPTION {
+  font-size: 1.3rem;
+  color: oklch(26.8% 0.007 34.298);
+}

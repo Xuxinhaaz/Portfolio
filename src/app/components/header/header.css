@@ -1,0 +1,123 @@
+
+* {
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  position: absolute;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5em;
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+  z-index: 1;
+}
+
+.IconBox {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  gap: 2em;
+  justify-content: center;
+}
+
+.GITHUBA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%
+}
+
+.LINKEDINA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+}
+
+.GITHUB{
+  width: 63.5%;
+  height: auto;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+
+.GITHUB:hover{
+  transform: translateY(-0.08rem);
+}
+
+.ARROWDOWN {
+  cursor: pointer;
+  width: 5rem;
+  height: 50%;
+  transition: .2s ease-in-out;
+}
+
+.ARROWDOWN:hover {
+  transform: scale(1.05);
+}
+
+.ARROWDOWNA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LINKEDIN{
+  width: 63%;
+  height: auto;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+
+.LINKEDIN:hover{
+  transform: translateY(-0.1rem);
+}
+
+a {
+  text-decoration: none;   /* removes underline */
+  color: inherit;
+  width: auto;
+  height: auto;
+}
+
+.SOBRE{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.HeaderTitle {
+  font-size: 1.7rem;
+  gap: 0.3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+}
+
+.CAIO{
+  color: oklch(25.7% 0.09 281.288);
+  cursor: pointer;
+}
+.MARTINS {
+  cursor: pointer;
+}

@@ -1,0 +1,96 @@
+* {
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.MainSec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  z-index: 0;
+}
+
+.Right {
+  background-color: oklch(25.7% 0.09 281.288);
+  display: flex;
+  width: 20%;
+  height: 100%;
+}
+
+.Left{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.INTROTEXTBOX {
+  width: 50%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  height: 20%;
+}
+
+.h1Plush3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FishInosTitle {
+  font-size: 4rem;
+}
+
+h3 {
+  color: oklch(75% 0.183 55.934);
+}
+
+.InitialDescription {
+  font-size: 1.3rem;
+  color: oklch(26.8% 0.007 34.298);
+}
+
+.OverviewPage {
+  align-items: center;
+  height: 15%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Decoration {
+  width: 0.4%;
+  height: 8rem;
+  background-color: oklch(75% 0.183 55.934);
+  border-radius: 1rem;
+}
+
+.OverviewPageBox {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginPageTitle {
+  display: inline-block;
+  width: 40%;
+}
+
+.LoginPageDescriotion {
+  display: inline-block;
+  width: 90%;
+  height: 20%;
+  color: oklch(26.8% 0.007 34.298);
+}

@@ -1,0 +1,116 @@
+main{
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+}
+
+.MainSec {
+  display: flex;
+  flex-direction: row;
+  height: 200vh;
+  z-index: 0;
+}
+
+* {
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ARROWDOWN {
+  cursor: pointer;
+  width: 5rem;
+  height: 50%;
+  transition: .2s ease-in-out;
+}
+
+.ARROWDOWN:hover {
+  transform: scale(1.05);
+}
+
+.ARROWDOWNA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;   /* removes underline */
+  color: inherit;
+  width: auto;
+  height: auto;
+}
+
+.Left{
+  display: flex;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.INTRO {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+
+.INTROBOX {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 10%;
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+.INTRO-TITLE {
+  font-size: 4.5rem;
+  color: oklch(25.7% 0.09 281.288);
+}
+
+.INTRO-SUBTITLES-BOX {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+b {
+  color: oklch(37.4% 0.01 67.558);
+  cursor: pointer;
+}
+
+b:hover {
+  color: oklch(14.7% 0.004 49.25);
+}
+
+.INTRO-SUBTITLE {
+  color: oklch(44.4% 0.011 73.639);
+}
+
+.PROJECTSBOX {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 65vw;
+  height: 90%;
+}
+
+
+.Right {
+  background-color: oklch(25.7% 0.09 281.288);
+  display: flex;
+  width: 35%;
+  height: 100%;
+}
