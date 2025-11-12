@@ -28,6 +28,9 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
+# Comands file
+Commands.txt
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/
